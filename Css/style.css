@@ -1,0 +1,198 @@
+/* All Common Css Start  */
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+ul,ol{
+  list-style-type: none;
+}
+a,a:hover{
+  text-decoration: none;
+  display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+  line-height: 0.8;
+  margin: 0;
+  padding: 0;
+}
+/* All Common Css End  */
+/* Stycky Header Start  */
+.sticky_name{
+  background: teal;
+  animation: alamin 1s;
+  }
+  @keyframes alamin{
+  from{
+  top: -100px;
+  }
+  to{
+  top: 0;
+  }
+  }
+  .back-to-top a{
+font-size: 200px;
+margin-bottom: 20px;
+margin-right: 30px;
+  }
+  .back-to-top{
+    position: fixed;
+  }
+/* Stycky Header End  */
+/* Header Part Start  */
+.nav-item{
+  padding:0 25px;
+}
+.nav-item a{
+  font-size: 20px;
+  font-weight: 400;
+  color:#29313D;
+}
+.manuBTN{
+  padding: 10px 15px;
+  border: 1px solid red;
+  border-radius: 20px;
+}
+.manuBTN a{
+  color:red;
+}
+/* Header Part End  */
+/* Banner Part Start  */
+#bannerPart{
+  background: url(../images/Elements\ \(1\).png);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+.bannerOverly{
+  padding: 150px 0;
+}
+.bannerText h6{
+font-size: 18px;
+font-weight: 400;
+color: #29313D;
+}
+.bannerText h4{
+  font-size: 64px;
+  font-weight: 600;
+  color: #29313D;
+  margin-top: 25px;
+}
+/* Banner Part End  */
+/* Busness Part Start  */
+#busnessPart{
+  padding: 170px 0;
+}
+.busnessText h6{
+  font-size: 18px;
+  font-weight: 400;
+  color: #FD5F36;
+}
+.busnessText h4{
+  font-size:48px;
+  font-weight: 600;
+  color: #29313D;
+  margin-top: 30px;
+  margin-bottom: 65px;
+}
+.busnessItem h5{
+font-size: 48px;
+font-weight: 600;
+color: #29313D;
+padding-left: 100px;
+margin-bottom: 30px;
+}
+.busnessItem p{
+  padding-left: 100px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+}
+.busnessItem h3{
+  font-size: 48px;
+  font-weight: 600px;
+  padding-left: 100px;
+  margin-top: 30px;
+}
+.besnessBTN{
+  margin-top: 40px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background: #FD5F36;
+margin-left: 100px;
+margin-right: 170px;
+}
+.busnessManu{
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.busnessManu li{
+  font-size: 20px;
+  font-weight: 400;
+}
+/* Busness Part End  */
+/* Project Part Start  */
+#projectPart{
+  padding: 100px 0;
+  background:#FFD7C8 ;
+}
+.projectItem{
+  display: flex;
+  justify-content: space-between;
+}
+.projectText h4{
+  font-size: 20px;
+  font-weight: 400;
+  color: #29313D;
+}
+.projectText h2{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 140%;
+  color: #29313D;
+}
+.projectBTN a{
+  color: #fff;
+  padding: 10px 15px;
+  background: #FD5F36;
+  border-radius: 20px;
+}
+.project{
+  height: 1px;
+  width: 100%;
+  background: #29313D;
+  margin-top: 60px;
+}
+.projectDesign p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  padding-right: 100px;
+  color: #29313D;
+  margin-top: 50px;
+}
+/* Project Part End  */
+/* Support Part Start  */
+#supportPart{
+  padding: 170px;
+}
+.supportIcon p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 180%;
+  color: #29313D;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+.supportIcon span{
+  font-size: 20px;
+  font-weight: 400;
+  color: #29313D;
+}
+.supportItem li{
+  padding: 5px 0;
+  margin-top: 30px;
+}
+/* Support Part End  */
