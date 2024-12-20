@@ -1,24 +1,4 @@
 
- /* Extra large devices  */
-@media (min-width: 1200px) { }
-
-/* Large devices  */
-@media (min-width: 992px) {  }
-
-/* Medium devices  */
-@media (min-width: 768px) {  }
-
-/* Small devices  */
-@media (min-width: 576px) { 
-  .navbar-toggler i{
-   font-size: 30px;
-    color: #fff;
-  }
-  .navbar-nav {
-    background: teal;
-    text-align: center;
-  }
-  }
  
 
 

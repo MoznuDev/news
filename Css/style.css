@@ -20,26 +20,8 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* All Common Css End  */
 /* Stycky Header Start  */
-.sticky_name{
-  background: teal;
-  animation: alamin 1s;
-  }
-  @keyframes alamin{
-  from{
-  top: -100px;
-  }
-  to{
-  top: 0;
-  }
-  }
-  .back-to-top a{
-font-size: 200px;
-margin-bottom: 20px;
-margin-right: 30px;
-  }
-  .back-to-top{
-    position: fixed;
-  }
+
+
 /* Stycky Header End  */
 /* Header Part Start  */
 .nav-item{
